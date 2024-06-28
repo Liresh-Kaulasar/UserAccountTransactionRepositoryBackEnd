@@ -19,6 +19,8 @@ namespace UserTransactions.Web.Controllers
 
         public AccountsService _accountsService = new AccountsService();
 
+        public TransactionsService _transactionsService = new TransactionsService();
+
         public UserTransactionsAPIController() {
         }
 
@@ -31,7 +33,7 @@ namespace UserTransactions.Web.Controllers
         }
 
         [System.Web.Http.HttpGet]
-        [System.Web.Http.Route("api/GetAllPersonalDetailsPagedResult")]
+        [System.Web.Http.Route("api/GetAllPersonalDetailsPagedResult/{page}/{pageSize}")]
         public IHttpActionResult GetAllPersonalDetailsPagedResult(int page, int pageSize)
         {
             var personalDetails = _personDetailsService.GetAllPersonalDetails();
@@ -54,6 +56,36 @@ namespace UserTransactions.Web.Controllers
             {
                 var accountDetails = _accountsService.GetAccountDetailsByCode(code);
                 return Ok(accountDetails);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        [System.Web.Http.HttpGet]
+        [System.Web.Http.Route("api/GetTransactionDetailsByCode/{code}")]
+        public IHttpActionResult GetTransactionDetailsByCode(int code)
+        {
+            try
+            {
+                var transactionDetails = _transactionsService.GetTransactionDetailsByAccountCode(code);
+                return Ok(transactionDetails);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        [System.Web.Http.HttpGet]
+        [System.Web.Http.Route("api/GetTransactionDetailsByTransactionCode/{code}")]
+        public IHttpActionResult GetTransactionDetailsByTransactionCode(int code)
+        {
+            try
+            {
+                var transactionDetail = _transactionsService.GetTransactionDetailsByTransactionCode(code);
+                return Ok(transactionDetail);
             }
             catch (Exception ex)
             {
@@ -128,6 +160,23 @@ namespace UserTransactions.Web.Controllers
             try
             {
                 rowsAffected = _accountsService.CreateAccount(personAccount);
+            }
+            catch (Exception ex)
+            {
+                return Content(HttpStatusCode.InternalServerError, ex.Message);
+            }
+
+            return Ok(rowsAffected);
+        }
+
+        [System.Web.Http.HttpPost]
+        [System.Web.Http.Route("api/CreateTransaction")]
+        public IHttpActionResult CreateTransaction(TransactionRecordModel transactionRecord)
+        {
+            int rowsAffected = 0;
+            try
+            {
+                rowsAffected = _transactionsService.CreateTransaction(transactionRecord);
             }
             catch (Exception ex)
             {

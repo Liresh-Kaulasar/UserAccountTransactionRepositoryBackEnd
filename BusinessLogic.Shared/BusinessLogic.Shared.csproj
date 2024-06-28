@@ -46,6 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AccountsService.cs" />
     <Compile Include="Services\PersonDetailsService.cs" />
+    <Compile Include="Services\TransactionsService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLogic.Core\BusinessLogic.Core.csproj">
