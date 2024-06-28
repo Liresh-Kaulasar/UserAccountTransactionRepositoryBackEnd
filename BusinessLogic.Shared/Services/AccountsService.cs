@@ -21,12 +21,26 @@ namespace BusinessLogic.Shared.Services
 
         public PersonAccountModel GetAccountDetailsByCode(int code)
         {
-            return _accountsRepository.GetAccountDetailsByCode(code);
+            var accountDetail = new PersonAccountModel();
+            try
+            {
+                accountDetail = _accountsRepository.GetAccountDetailsByCode(code);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+
+            return accountDetail;
         }
 
         public int UpdateAccountDetails(PersonAccountModel personAccount)
         {
             return _accountsRepository.UpdateAccountDetails(personAccount);
+        }
+
+        public int CreateAccount(PersonAccountModel personAccount) { 
+            return _accountsRepository.CreateAccount(personAccount);
         }
     }
 }

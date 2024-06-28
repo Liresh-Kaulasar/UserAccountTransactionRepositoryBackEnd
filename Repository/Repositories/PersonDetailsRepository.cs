@@ -65,6 +65,11 @@ namespace Repository.Repositories
                     command.Parameters.AddWithValue("@IdNumber", personDetails.Id_number);
 
                     rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected == -1)
+                    {
+                        throw new Exception("This ID Number already exists!");
+                    }
                 }
             }
 
@@ -86,14 +91,12 @@ namespace Repository.Repositories
                     command.Parameters.AddWithValue("@Name", personDetails.Name);
                     command.Parameters.AddWithValue("@Surname", personDetails.Surname);
                     command.Parameters.AddWithValue("@IdNumber", personDetails.Id_number);
+                    
+                    rowsAffected = command.ExecuteNonQuery();
 
-                    try
+                    if (rowsAffected == -1)
                     {
-                        rowsAffected = command.ExecuteNonQuery();
-                    }
-                    catch (Exception e)
-                    {
-                        throw new Exception(e.Message);
+                        throw new Exception("This ID Number already exists!");
                     }
                 }
             }

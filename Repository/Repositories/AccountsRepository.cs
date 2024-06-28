@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Principal;
@@ -95,9 +96,43 @@ namespace Repository.Repositories
 
                     int rowsAffected = command.ExecuteNonQuery();
 
+                    if (rowsAffected == -1)
+                    {
+                        throw new Exception("This Account Number already exists!");
+                    }
+
                     return rowsAffected;
                 }
             }
+        }
+
+        public int CreateAccount(PersonAccountModel personAccount)
+        {
+            int rowsAffected = 0;
+
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+
+                using (SqlCommand command = new SqlCommand("StoredProc_InsertAccountDetails", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    command.Parameters.AddWithValue("@PersonCode", personAccount.Person_code);
+                    command.Parameters.AddWithValue("@OutstandingBalance", personAccount.Outstanding_balance);
+                    command.Parameters.AddWithValue("@AccountNumber", personAccount.Account_number);
+
+                    rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected == -1)
+                    {
+                        throw new Exception("This Account Number already exists!");
+                    }
+
+                }
+            }
+
+            return rowsAffected;
         }
     }
 

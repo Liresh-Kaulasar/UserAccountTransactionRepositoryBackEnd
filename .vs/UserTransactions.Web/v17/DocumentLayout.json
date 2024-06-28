@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC6AF2B5-D828-49C7-846C-0E6B70842A9F}|UserTransactions.Web\\UserTransactions.Web.csproj|C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\usertransactions.web\\controllers\\usertransactionsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC6AF2B5-D828-49C7-846C-0E6B70842A9F}|UserTransactions.Web\\UserTransactions.Web.csproj|solutionrelative:usertransactions.web\\controllers\\usertransactionsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0DFA6B7-DDBC-42E5-A46B-5DD58C384795}|BusinessLogic.Shared\\BusinessLogic.Shared.csproj|C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\businesslogic.shared\\services\\accountsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0DFA6B7-DDBC-42E5-A46B-5DD58C384795}|BusinessLogic.Shared\\BusinessLogic.Shared.csproj|solutionrelative:businesslogic.shared\\services\\accountsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC6AF2B5-D828-49C7-846C-0E6B70842A9F}|UserTransactions.Web\\UserTransactions.Web.csproj|c:\\users\\user-pc\\source\\repos\\usertransactions.web\\usertransactions.web\\controllers\\usertransactionsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC6AF2B5-D828-49C7-846C-0E6B70842A9F}|UserTransactions.Web\\UserTransactions.Web.csproj|solutionrelative:usertransactions.web\\controllers\\usertransactionsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0DFA6B7-DDBC-42E5-A46B-5DD58C384795}|BusinessLogic.Shared\\BusinessLogic.Shared.csproj|C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\businesslogic.shared\\services\\persondetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +19,16 @@
       "RelativeMoniker": "D:0:0:{E78E7D1D-59E0-4885-9A37-8DC973F729FE}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\accountsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{585C2B6D-DD24-48E3-9705-047644AC4B59}|BusinessLogic.Core\\BusinessLogic.Core.csproj|C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\businesslogic.core\\models\\persondetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585C2B6D-DD24-48E3-9705-047644AC4B59}|BusinessLogic.Core\\BusinessLogic.Core.csproj|solutionrelative:businesslogic.core\\models\\persondetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{585C2B6D-DD24-48E3-9705-047644AC4B59}|BusinessLogic.Core\\BusinessLogic.Core.csproj|C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\businesslogic.core\\models\\personaccountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{585C2B6D-DD24-48E3-9705-047644AC4B59}|BusinessLogic.Core\\BusinessLogic.Core.csproj|solutionrelative:businesslogic.core\\models\\personaccountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E78E7D1D-59E0-4885-9A37-8DC973F729FE}|Repository\\Repository.csproj|c:\\users\\user-pc\\source\\repos\\usertransactions.web\\repository\\repositories\\persondetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E78E7D1D-59E0-4885-9A37-8DC973F729FE}|Repository\\Repository.csproj|C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\repository\\repositories\\persondetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E78E7D1D-59E0-4885-9A37-8DC973F729FE}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\persondetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{585C2B6D-DD24-48E3-9705-047644AC4B59}|BusinessLogic.Core\\BusinessLogic.Core.csproj|C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\businesslogic.core\\models\\persondetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{585C2B6D-DD24-48E3-9705-047644AC4B59}|BusinessLogic.Core\\BusinessLogic.Core.csproj|solutionrelative:businesslogic.core\\models\\persondetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserTransactionsAPIController.cs",
               "DocumentMoniker": "C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\UserTransactions.Web\\Controllers\\UserTransactionsAPIController.cs",
               "RelativeDocumentMoniker": "UserTransactions.Web\\Controllers\\UserTransactionsAPIController.cs",
               "ToolTip": "C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\UserTransactions.Web\\Controllers\\UserTransactionsAPIController.cs",
               "RelativeToolTip": "UserTransactions.Web\\Controllers\\UserTransactionsAPIController.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAmwFUAAAA4AAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAADgv0YAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T22:41:56.765Z",
               "EditorCaption": ""
@@ -61,27 +65,27 @@
               "RelativeDocumentMoniker": "BusinessLogic.Shared\\Services\\PersonDetailsService.cs",
               "ToolTip": "C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\BusinessLogic.Shared\\Services\\PersonDetailsService.cs",
               "RelativeToolTip": "BusinessLogic.Shared\\Services\\PersonDetailsService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAADgvyEAAAAuAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAewCAAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T22:39:32.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AccountsService.cs",
               "DocumentMoniker": "C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\BusinessLogic.Shared\\Services\\AccountsService.cs",
               "RelativeDocumentMoniker": "BusinessLogic.Shared\\Services\\AccountsService.cs",
               "ToolTip": "C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\BusinessLogic.Shared\\Services\\AccountsService.cs",
               "RelativeToolTip": "BusinessLogic.Shared\\Services\\AccountsService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAABJAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T22:39:19.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "PersonDetailsModel.cs",
               "DocumentMoniker": "C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\BusinessLogic.Core\\Models\\PersonDetailsModel.cs",
               "RelativeDocumentMoniker": "BusinessLogic.Core\\Models\\PersonDetailsModel.cs",
@@ -89,11 +93,12 @@
               "RelativeToolTip": "BusinessLogic.Core\\Models\\PersonDetailsModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T22:38:01.235Z"
+              "WhenOpened": "2024-06-27T22:38:01.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PersonAccountModel.cs",
               "DocumentMoniker": "C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\BusinessLogic.Core\\Models\\PersonAccountModel.cs",
               "RelativeDocumentMoniker": "BusinessLogic.Core\\Models\\PersonAccountModel.cs",
@@ -106,13 +111,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PersonDetailsRepository.cs",
               "DocumentMoniker": "C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\Repository\\Repositories\\PersonDetailsRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\PersonDetailsRepository.cs",
               "ToolTip": "C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\Repository\\Repositories\\PersonDetailsRepository.cs",
               "RelativeToolTip": "Repository\\Repositories\\PersonDetailsRepository.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAiwBEAAAAoAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAiwEcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T22:31:18.797Z",
               "EditorCaption": ""
@@ -125,7 +130,7 @@
               "RelativeDocumentMoniker": "Repository\\Repositories\\AccountsRepository.cs",
               "ToolTip": "C:\\Users\\User-PC\\source\\repos\\UserTransactions.Web\\Repository\\Repositories\\AccountsRepository.cs",
               "RelativeToolTip": "Repository\\Repositories\\AccountsRepository.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAIwFQAAABJAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAAGYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T22:31:05.961Z",
               "EditorCaption": ""

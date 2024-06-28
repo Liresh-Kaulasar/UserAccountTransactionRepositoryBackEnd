@@ -22,11 +22,6 @@ namespace UserTransactions.Web.Controllers
         public UserTransactionsAPIController() {
         }
 
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
         [System.Web.Http.HttpGet]
         [System.Web.Http.Route("api/GetAllPersonalDetails")]
         public IHttpActionResult GetAllPersonalDetails()
@@ -78,7 +73,16 @@ namespace UserTransactions.Web.Controllers
         [System.Web.Http.Route("api/UpdatePersonalDetails")]
         public IHttpActionResult UpdatePerson(PersonDetailsModel personDetails)
         {
-            var rowsAffected = _personDetailsService.UpdatePersonDetails(personDetails);
+            int rowsAffected = 0;
+            try
+            {
+                rowsAffected = _personDetailsService.UpdatePersonDetails(personDetails);
+            }
+            catch (Exception ex)
+            {
+                return Content(HttpStatusCode.InternalServerError, ex.Message);
+            }
+
             return Ok(rowsAffected);
         }
 
@@ -86,7 +90,16 @@ namespace UserTransactions.Web.Controllers
         [System.Web.Http.Route("api/UpdateAccountDetails")]
         public IHttpActionResult UpdateAccountDetails(PersonAccountModel personAccount)
         {
-            var rowsAffected = _accountsService.UpdateAccountDetails(personAccount);
+            int rowsAffected = 0;
+            try
+            {
+                rowsAffected = _accountsService.UpdateAccountDetails(personAccount);
+            }
+            catch (Exception ex)
+            {
+                return Content(HttpStatusCode.InternalServerError, ex.Message);
+            }
+
             return Ok(rowsAffected);
         }
 
@@ -94,7 +107,33 @@ namespace UserTransactions.Web.Controllers
         [System.Web.Http.Route("api/CreatePerson")]
         public IHttpActionResult CreatePerson(PersonDetailsModel personDetails)
         {
-            var rowsAffected = _personDetailsService.CreatePerson(personDetails);
+            int rowsAffected = 0;
+            try
+            {
+                rowsAffected = _personDetailsService.CreatePerson(personDetails);
+            }
+            catch (Exception ex)
+            {
+                return Content(HttpStatusCode.InternalServerError, ex.Message);
+            }
+
+            return Ok(rowsAffected);
+        }
+
+        [System.Web.Http.HttpPost]
+        [System.Web.Http.Route("api/CreateAccount")]
+        public IHttpActionResult CreateAccount(PersonAccountModel  personAccount)
+        {
+            int rowsAffected = 0;
+            try
+            {
+                rowsAffected = _accountsService.CreateAccount(personAccount);
+            }
+            catch (Exception ex)
+            {
+                return Content(HttpStatusCode.InternalServerError, ex.Message);
+            }
+
             return Ok(rowsAffected);
         }
 
@@ -104,21 +143,6 @@ namespace UserTransactions.Web.Controllers
         {
             var personDetails = _accountsService.GetAccountDetailsByPersonCode(personCode);
             return Ok(personDetails);
-        }
-
-        // POST: api/UserTransactionsAPI
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT: api/UserTransactionsAPI/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE: api/UserTransactionsAPI/5
-        public void Delete(int id)
-        {
         }
     }
 }

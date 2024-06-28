@@ -26,6 +26,7 @@ namespace BusinessLogic.Shared.Services
 
         public PersonDetailsModel GetPersonDetailsByCode(int code)
         {
+
             return _personalDetailsRepository.GetPersonDetailsByCode(code);
         }
 
