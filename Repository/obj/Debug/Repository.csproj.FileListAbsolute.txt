@@ -1,0 +1,9 @@
+C:\Users\User-PC\source\repos\UserTransactions.Web\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+C:\Users\User-PC\source\repos\UserTransactions.Web\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\User-PC\source\repos\UserTransactions.Web\Repository\bin\Debug\Repository.dll
+C:\Users\User-PC\source\repos\UserTransactions.Web\Repository\bin\Debug\Repository.pdb
+C:\Users\User-PC\source\repos\UserTransactions.Web\Repository\bin\Debug\BusinessLogic.Core.dll
+C:\Users\User-PC\source\repos\UserTransactions.Web\Repository\bin\Debug\BusinessLogic.Core.pdb
+C:\Users\User-PC\source\repos\UserTransactions.Web\Repository\obj\Debug\Repository.csproj.Up2Date
+C:\Users\User-PC\source\repos\UserTransactions.Web\Repository\obj\Debug\Repository.dll
+C:\Users\User-PC\source\repos\UserTransactions.Web\Repository\obj\Debug\Repository.pdb

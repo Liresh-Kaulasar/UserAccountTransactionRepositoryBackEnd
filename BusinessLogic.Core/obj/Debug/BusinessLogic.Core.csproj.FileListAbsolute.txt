@@ -1,0 +1,6 @@
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Core\bin\Debug\BusinessLogic.Core.dll
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Core\bin\Debug\BusinessLogic.Core.pdb
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Core\obj\Debug\BusinessLogic.Core.csproj.AssemblyReference.cache
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Core\obj\Debug\BusinessLogic.Core.csproj.CoreCompileInputs.cache
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Core\obj\Debug\BusinessLogic.Core.dll
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Core\obj\Debug\BusinessLogic.Core.pdb

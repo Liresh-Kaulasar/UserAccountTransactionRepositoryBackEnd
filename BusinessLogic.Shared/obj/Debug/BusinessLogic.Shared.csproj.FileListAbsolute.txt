@@ -1,0 +1,11 @@
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Shared\obj\Debug\BusinessLogic.Shared.csproj.AssemblyReference.cache
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Shared\obj\Debug\BusinessLogic.Shared.csproj.CoreCompileInputs.cache
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Shared\bin\Debug\BusinessLogic.Shared.dll
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Shared\bin\Debug\BusinessLogic.Shared.pdb
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Shared\bin\Debug\BusinessLogic.Core.dll
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Shared\bin\Debug\BusinessLogic.Core.pdb
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Shared\obj\Debug\Business.21D1F069.Up2Date
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Shared\obj\Debug\BusinessLogic.Shared.dll
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Shared\obj\Debug\BusinessLogic.Shared.pdb
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Shared\bin\Debug\Repository.dll
+C:\Users\User-PC\source\repos\UserTransactions.Web\BusinessLogic.Shared\bin\Debug\Repository.pdb
